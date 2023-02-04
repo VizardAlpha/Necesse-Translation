@@ -14,4 +14,4 @@ With every game update, all included language files will be updated with missing
 This means you can search for MISSING_TRANSLATION to find and add them.        
 
 If a translation is the same as english, make sure to add "SAME_TRANSLATION:" before the translation key,         
-similar to how it is before missing translation.It is also possible to force this update my clicking the language in game while holding down shift.         
+similar to how it is before missing translation. It is also possible to force this update my clicking the language in game while holding down shift.         
