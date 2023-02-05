@@ -447,7 +447,7 @@ timerinactive=No está corriendo
 soundbass=Bajo
 SAME_TRANSLATION:soundhat=Hat
 soundkick=Patada
-MISSING_TRANSLATION:soundpiano=Piano
+soundpiano=Piano
 soundsnare=Lazo
 soundnone=Sin sonido
 soundname=Sonido: <name>
@@ -3519,9 +3519,9 @@ movetip=Moverse
 aimtip=Apuntar
 hotbartip=Navegar barra de acceso directo
 spacebartip=Barra espaciadora
-MISSING_TRANSLATION:backspacetip=Backspace
+backspacetip=Backspace
 capitalizetip=Capitalizar
-MISSING_TRANSLATION:crafttohand=Craft to hand
+rafttohand=Craftear a la mano
 crafttoinventory=Craftear al inventario
 
 [music]
