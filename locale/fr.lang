@@ -19,7 +19,7 @@ credits=By Doum, turtlebyturtle, sad0 and VizardAlpha
 
 // Extra symbols that will be loaded in the font when using this language
 // Below is the french alphabet
-extrasymbols=AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzàâéèÉêîÎôûç'"
+extrasymbols=AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzàâéèÉêîÎôûùç'"
 
 [tile]
 unknowntile=Inconnu
@@ -1645,6 +1645,7 @@ pouches=Sacs
 vinyls=Vinyles
 questitems=Objets de quête
 unknownitems=<count>éléments inconnus
+
 [enchantment]
 // Trinkets
 keen=Vif
@@ -2472,6 +2473,7 @@ connectplayers=Chargement des joueurs <percent>%.
 connectclient=Chargement du client
 connectquests=Chargement des quêtes
 connectmap=Chargement de la carte <percent>%.
+
 [jobs]
 settlerincapable=Le colon est incapable de faire ce travail
 jobrange=Distance de travail : <range> carreaux
@@ -3397,6 +3399,7 @@ nopermission=Aucune permission de serveur
 communitytranslations=Traductions de la communauté
 translationcoverage=<percent> de couverture
 helptranslate=Aide à la traduction de Necesse
+
 [stats]
 filter=Filtre:
 time_played=Durée de jeu
