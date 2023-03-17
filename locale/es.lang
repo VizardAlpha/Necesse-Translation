@@ -1,4 +1,4 @@
-// Spanish trasnlation
+// Spanish translation
 // Every language must have lang.localname and lang.engname to be loaded.
 // File must be saved with UTF-8 encoding.
 
@@ -200,7 +200,7 @@ trainingdummy=Maniquí de entrenamiento
 stonecoffin=Ataúd
 gravestone=Lápida
 minecarttrack=Vías de carro minero
-MISSING_TRANSLATION:traptrack=Trap Track
+traptrack=Vía trampa
 
 // Furniture types
 // Oak
@@ -345,7 +345,7 @@ wheatseed=Semillas de trigo
 cornseed=Semillas de maíz
 tomatoseed=Semillas de tomate
 cabbageseed=Semillas de lechuga
-chilipepperseed=Semillas de ají picante
+chilipepperseed=Semillas de guindilla
 sugarbeetseed=Semillas de remolacha azucarada
 eggplantseed=Semillas de berenjena
 potatoseed=Semillas de papa
@@ -420,8 +420,8 @@ thorns=Espinas
 ladderdown=Escalera hacia abajo
 ladderup=Escalera hacia arriba
 dungeonentrance=Entrada de la mazmorra
-MISSING_TRANSLATION:trialentrance=Trial Entrance
-MISSING_TRANSLATION:trialexit=Trial Exit
+trialentrance=Entrada de prueba
+trialexit=Salida de prueba
 dungeonexit=Salida de la mazmorra
 deepladderdown=Escalera hacia abajo (profundo)
 deepladderup=Escalera hacia arriba (profundo)
@@ -750,7 +750,7 @@ tungstenboomerang=Boomeran de tungsteno
 hook=Gancho
 ironbomb=Bomba de hierro
 dynamitestick=Dinamita
-MISSING_TRANSLATION:tilebomb=Tile Bomb
+tilebomb=Bomba de suelos
 boxingglovegun=Arma de guante de boxeo
 glacialboomerang=Boomerang glacial
 dragonsrebound=Hojas dragonianas
@@ -1008,7 +1008,7 @@ frogleg=Pata de rana
 corn=Maíz
 tomato=Tomate
 cabbage=Lechuga
-chilipepper=Ají picante
+chilipepper=Guindilla
 eggplant=Berenjena
 potato=Papa
 carrot=Zanahoria
@@ -1229,9 +1229,9 @@ spiderset=Al golpear, envenena a los enemigos\n10u x5s\nInmunidad a la lentitud
 frostset=Ataques melee ralentizan y dañan al objetivo\n15u x 5s
 glacialhelmetset=Ataques melee dispararán un témpano helado
 glacialcircletset=Las invacaciones atacarán a objetivos ralentizados
-MISSING_TRANSLATION:myceliumhoodset=Hold down [input=setability] to root you to the ground\nand gain +100% ranged attack speed
-MISSING_TRANSLATION:myceliumscarfset=Each hit on enemies gives +0.5%\nmovement speed stacking up to 100
-MISSING_TRANSLATION:widowset=Attacks poison target for\n25 damage over 5 seconds\nGrants immunity to slows
+myceliumhoodset=Mantén pulsado [input=setability] para enrizarte en el suelo \ny obtener +100% de velocidad de ataques a distancia
+myceliumscarfset=Cada golpe a los enemigos otorga +0.5%\nLa velocidad de movimiento se acumula hasta 100
+widowset=Ataca al objetivo envenenado por\n25 de daño durante 5 segundos\nOtorga inmunidad a la lentitud
 ancientfossilset=Presione [input=setability] para ganar 100% de probabilidad de crítico x5s
 
 // Trinkets
@@ -1335,7 +1335,7 @@ heavyhammertip=Lanza piedras pequeñas
 lightninghammertip1=Velocidad muy rápida
 lightninghammertip2=Dispara rayos cortos
 reaperscythetip=Dispara una guadaña
-MISSING_TRANSLATION:venomslashertip=Shoots a wave of venom
+venomslashertip=Dispara una ola de veneno
 speartip=Solo impactará por la punta
 bloodbolttip=Dispara un proyectil buscador
 bloodvolleytip=Dispara 3 proyectiles buscadores
@@ -1345,7 +1345,7 @@ voidmissiletip=Dispara un misil guiado
 swamptometip=Dispara un proyectil de lentitud que rebota
 genielamptip=Dispara una constante corriente de agua
 destructivetip=Destruye objetos
-MISSING_TRANSLATION:destructivetiletip=Destroys tiles
+destructivetiletip=Destruye casillas de suelo
 venomstafftip=Coloca veneno sobre el suelo
 dredgingstafftip=Dispara una ola de púas
 boulderstafftip=Lanza una roca que rebota
@@ -1368,7 +1368,7 @@ fowtipnotequipped=Equipa y presiona [input=trinketability] para impulsarte hacia
 fowtip2=También puede ser usado desde la mano
 blinksceptertip=Equipa y presiona [input=trinketability] para parpadear hacia adelante
 glacialbowtip=Dispara un proyectil que se fragmenta al\nimpactar a los enemigos
-MISSING_TRANSLATION:druidsgreatbowtip=Shoots petals that split mid air
+druidsgreatbowtip=Dispara pétalos que se parten en el aire
 glacialboomerangtip=Manipulable después de lanzarse
 glacialboomerangtip2=Arroja 2 en 1
 cryoquaketip=Crea una línea de témpanos helados
@@ -1411,7 +1411,7 @@ fishingpot2=Añade un hilo de pesca
 invispot=Proporciona invisibilidad
 resistpot=Aumenta la armadura en 8 puntos
 speedpot=Incrementa la velocidad de movimiento
-MISSING_TRANSLATION:webpot=Slows targets on hit
+webpot=Ralentiza los objetivos al golpear
 spelunkerpot=Resalta los minerales
 treasurepot=Resalta los tesoros
 passivepot=Reduce la tasa de aparición de mobs
@@ -1558,9 +1558,9 @@ glassbottletip=Usado para la alquimia
 mapfragmenttip=Combina 2 para hacer un mapa
 sparepartstip=Necesario para fabricar un bote de acero
 wiretip=Puede usarse si se tiene una llave inglesa
-MISSING_TRANSLATION:queenbeetip=Place inside an apiary to start breeding honey bees
-MISSING_TRANSLATION:honeybeetip=Place inside an apiary to increase hive population
-MISSING_TRANSLATION:apiaryframetip=Place inside an apiary to increase honey production
+queenbeetip=Colocar dentro de un apiario para comenzar a criar abejas
+honeybeetip=Colocar dentro de un apiario para aumentar la población de colmenas
+apiaryframetip=Colocar dentro de un apiario para aumentar la producción de miel
 recipebooktip=Permite navegar por todas las recetas
 voidpouchtip=Un pequeño saco personal
 voidbagtip=Un saco personal grande
@@ -1878,7 +1878,7 @@ calf=Ternero
 pig=Cerdo
 piglet=Cerdito
 penguin=Pingüino
-honeybee=Miel de abeja
+honeybee=Abeja
 polarbear=Oso polar
 
 // Critters
@@ -3549,8 +3549,8 @@ smartmining=Minería "inteligente"
 lootall=Lotear todo
 sortinventory=Ordenar inventario
 quickstack=Stackear rápido cercanos
-MISSING_TRANSLATION:pipette=Pipette
-MISSING_TRANSLATION:pipettetip=Mouse over an object or tile and click this hotkey to move it to the selected hotbar slot
+pipette=Pipeta
+pipettetip=Pase el ratón por encima de un objeto o casilla y haga clic en esta tecla de acceso directo para moverlo a la ranura de la barra de acceso rápido seleccionada
 scoreboard=Tablero de puntuación
 showmap=Mostrar mapa de la isla
 showworldmap=Mostrar mapa general
