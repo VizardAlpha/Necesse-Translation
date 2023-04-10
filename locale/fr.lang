@@ -11,7 +11,7 @@
 // This means you can search for MISSING_TRANSLATION to find and add them.
 // If a translation is the same as English, make sure to add "SAME_TRANSLATION:" before the translation key,
 // similar to how it is before missing translation.
-// It is also possible to force this update by clicking the language in-game while holding down shift.
+// It is also possible to force this update by clicking the language in game while holding down shift.
 [lang]
 localname=Français
 engname=French

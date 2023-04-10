@@ -11,7 +11,7 @@
 // This means you can search for MISSING_TRANSLATION to find and add them.
 // If a translation is the same as English, make sure to add "SAME_TRANSLATION:" before the translation key,
 // similar to how it is before missing translation.
-// It is also possible to force this update by clicking the language in-game while holding down shift.
+// It is also possible to force this update by clicking the language in game while holding down shift.
 [lang]
 localname=简体中文
 engname=Chinese - Simplified
@@ -2033,34 +2033,34 @@ trainingdummy=训练假人
 homeportal=出生传送点
 
 [mobmsg]
-angryshop=无法与愤怒的人交易
+angryshop=无法与生气的人交谈
 busyhuman=<name> 正忙
 humanangry1=你这样做并不值得赞赏
 humanangry2=啊，好痛！
-humanangry3=请停止
+humanangry3=请停下
 humanangry4=你这样做是为了啥？
 humanangry5=你为什么要这样做？
-humanangry6=我做了什么，你要这样对我？
+humanangry6=我做了什么，让你这样对我？
 
 humanangryactive1=我只是想要帮你！
 humanangryactive2=我只是想要做自己的事情！
-humanangryactive3=你不停下，那我就只能杀掉你了！
+humanangryactive3=停下，否则我会杀了你！
 
 humanattack1=守卫，救命啊！
 humanattack2=你会后悔的！
 humanattack3=现在我啊，是真的生气了！
 humanattack4=这是你最后的机会了！
-humanattack5=警卫，我们中出了一个敌人！
+humanattack5=警卫，我们中有敌人！
 humanattack6=我们是时候做个了断了！
 
 humantalk1=这附近是什么味道？
 humantalk2=有时我只想躺在床上
-humantalk3=老虎不发威，当我是病猫？
-humantalk4=你的出现便是个错误
-humantalk5=你就是行走的意外！
+humantalk3=你曾否仰望天空上的星星并陷入沉思？
+humantalk4=我经常会想一些人生中的大问题。
+humantalk5=你想过吗，我们为什么会在这里？ 答案很简单！
 
 alchemisttalk1=我喜欢蘑菇
-alchemisttalk2=我的试剂从来不会爆炸，我打包票
+alchemisttalk2=我的试剂从来不会爆炸，我发誓。
 alchemisttalk3=你也想来嗨一下吗？
 alchemisttalk4=啥？没有，我可没有瞎下料！
 alchemisttalk5=哈哈，为啥你说的事都那么搞笑？
@@ -2068,12 +2068,12 @@ alchemisttalk5=哈哈，为啥你说的事都那么搞笑？
 anglertalk1=钓鱼不仅是我的爱好，更是我的生活
 anglertalk2=总有一天，你也会体会到钓鱼的乐趣
 anglertalk3=我这辈子见过不少稀奇古怪的鱼
-anglertalk4=我能在鱼旁边谈上一整天的话
+anglertalk4=我能和我的鱼聊上一整天。
 anglertalk5=钓鱼的时候可别忘了必要的饵料！
 anglerspecial=<stylist>有没有对我的着装发表意见？
 
 akeepertalk1=我可是一直在为您收集宠物！
-akeepertalk2=你能明白它们说了啥吗，它们说的是，去把它们都揽下来！
+akeepertalk2=我的梦想是将所有动物变成宠物。
 akeepertalk3=我这有一些动物，我敢保证比你见过的都要奇特！
 akeepertalk4=我的宠物很好养，只要一点时间去打理就好了
 akeepertalk5=宠物可以是你一生的伴侣！
@@ -2082,43 +2082,43 @@ akeepertalk7=虽然有的宠物有点贵，但是它肯定值这个价！
 
 blacksmithtalk1=我的锤子可不止是用来锻造！
 blacksmithtalk2=做什么工作就用什么工具，这很重要！
-blacksmithtalk3=哟，要不要来磨一下你的剑？
+blacksmithtalk3=你的剑该好好磨磨了。
 blacksmithtalk4=瞧瞧我的这些宝贝吧！
-blacksmithspecial=别把你的锭卖给<gunsmith>，他完全是在浪费！
+blacksmithspecial=别把你的锭卖给<gunsmith>，他根本不会用！
 
-eldertalk1=不要自满，你应该多出去开阔视野
+eldertalk1=世界那么大，你该去看看。
 eldertalk2=传说有的岛上有地牢，地牢里全是宝物
-eldertalk3=我在你这样的年轻冒险家身上看到了潜力
+eldertalk3=年轻的探险家啊，我在你身上看到了潜力。
 eldertalk4=在地下你能找到世界上最棒的矿物
-eldertalk5=我这辈子只见过一次恶魔，很幸运我能活着出来
+eldertalk5=我这曾经只见过一次恶魔，万幸的是我能活着出来
 eldertalk6=我能帮你什么吗？
 
 farmertalk1=你见过我的儿子吗？
 farmertalk2=你想打扮得像我一样吗？
 farmertalk3=你对农业感兴趣吗？
-farmertalk4=人总会老的，但还没人接管我的农场
+farmertalk4=当我老的时候，我得找个人接管我的农场
 
 gunsmithtalk1=狩猎之前，一定要记得练习
 gunsmithtalk2=杀人的不是武器，而是人心
-gunsmithtalk3=我有些武器，在镇里都算得上最致命的那种！
+gunsmithtalk3=百里开外，没有比我这些还要致命的武器了。
 gunsmithtalk4=我的货没有残次品，我发誓！
-gunsmithspecial1=别把你的锭卖给<blacksmith>，他完全是在浪费！
+gunsmithspecial1=别把你的锭卖给<blacksmith>，他根本不会用！
 gunsmithspecial2=<hunter>就是个疯子，枪才是唯一神！
 
-huntertalk1=没有什么是弓和箭解决不了的事情
+huntertalk1=没有什么是弓箭解决不了的事情
 huntertalk2=你知道弓的精髓在哪吗，那就是我！
-huntertalk3=只要你敢把苹果放在头上，我就敢给你表演一个
+huntertalk3=把苹果放在你的头上，我来给你表演一个
 huntertalk4=你是富还是穷？
 huntertalk5=我有让你想起某人吗？
 huntertalkspecial=<gunsmith>就是个疯子，弓才是唯一神！
 
 magetalk1=你对魔法感兴趣吗？
 magetalk2=你可以拥有无限潜力…
-magetalk3=嘘，这些魔法你可别说出去
+magetalk3=有些魔法我们避而不谈。
 magetalk4=过这村没这店了啊！
 magetalk5=良马配好鞍，强大的武器就该附魔！
 magetalk6=附魔能把属性提升一大截！
-magetalk7=你可以找我附魔，也可以找我买东西！
+magetalk7=你可以找我附魔，也可以瞧瞧我的商品！
 
 piratetalk1=有时候，我会怀念大海
 piratetalk2=你有多的朗姆酒吗？
@@ -2126,16 +2126,16 @@ piratetalk3=你之前有找到过宝藏吗？
 piratetalk4=我的锁丢了，你见过它吗？
 piratetalk5=我的火药比你见过的任何火药都要好！
 piratetalk6=总之，我不怎么喜欢我的海盗生活
-piratespecial1=您没炒我的鱿鱼，我感激不尽！
-piratespecial2=愿我从未伤害过您！
+piratespecial1=当时您的手下留情，我感激不尽！
+piratespecial2=我当时没打伤你吧！
 
 stylisttalk1=听说有人觉得我看起来像二次元？
 stylisttalk2=生发可不是超能力！
-stylisttalk3=想给别人来个深刻的印象吗？
+stylisttalk3=想给别人留下深刻的印象吗？
 stylisttalk4=何以解忧，唯有新衣！
-stylisttalk5=本店周末正常上班！
+stylisttalk5=我在周末正常上班！
 stylisttalk6=本店一定会让您印象深刻！
-stylisttalk7=来个新发型，还是买条新裤子？
+stylisttalk7=想来个新发型，还是买条新裤子？
 stylistspecial=<angler>居然选择了那种风格，难以置信！
 
 tmerchanttalk1=我的商品和你本身一样稀奇
@@ -2150,36 +2150,36 @@ pawnbrokertalk1=放心，我的出价绝对公平！
 pawnbrokertalk2=你要明白，我可不只是个收废品的
 pawnbrokertalk3=有的时候，你需要一个我就够了
 pawnbrokertalk4=很好，我可以借此大赚一笔！
-pawnbrokertalk5=我不会骗你，我向你保证！
+pawnbrokertalk5=我不会诈你，我向你保证！
 pawnbrokertalk6=不用你说，我知道我很帅气
 pawnbrokertalk7=你这有茶来招待我吗？
 
-tpawnbrokertalk1=那位商人来过这吗，我刚在海上碰见他了
+tpawnbrokertalk1=那商人还没来吗，我刚刚还在海上碰见他了
 tpawnbrokertalk2=你一直在等我？真让人感动
 
 explorertalk1=我最喜欢的地方还是热带岛屿
-explorertalk2=我也有过性命攸关的时候
+explorertalk2=我也曾有过性命攸关的时候
 explorertalk3=这里太无聊了，我想出去旅行！
 explorertalk4=千里之行，始于足下，一双好鞋，一段好路！
-explorertalk5=我不知道我能不能找到这样的地牢
-explorertalk6=记得提醒我，出发之前要带好水
+explorertalk5=我希望我能找到他们口中的那些神殿。
+explorertalk6=在我出发前记得提醒我带好水。
 explorertalk7=说实话，野外生存很简单
 explorertalk8=探索的时候千万记得提防陷阱
 
 pirateattack1=兄弟们，上啊！
-pirateattack2=举起手来，交出朗姆酒再滚蛋！
-pirateattack3=我的火药马上就能把你抬走！
-pirateattack4=哟，瞧瞧这个不速之客！
-pirateattack5=解决了他，然后我们开瓶朗姆酒庆祝一下！
-pirateattack6=我会把你碎尸万段，就用这把弯刀！
-pirateattack7=你会后悔来我们这个岛的！
+pirateattack2=交出你的朗姆酒然后滚蛋！
+pirateattack3=我的火药能将你送上天！
+pirateattack4=敌袭！敌袭！
+pirateattack5=我们将会在你的尸体上喝朗姆酒狂欢！
+pirateattack6=我的弯刀会将你碎尸万段！
+pirateattack7=你会后悔踏上我们的岛！
 
-pirateescape1=他害怕了，人已经逃走了！
+pirateescape1=怕了吧！快滚吧！
 pirateescape2=处理完毕！
 pirateescape3=就这？下次再来吧！
 
 [settlement]
-notsettler=找不到NPC
+notsettler=找不到定居者
 thoughts=想法：
 sizebaby=窄小
 sizetiny=微小

@@ -11,7 +11,7 @@
 // This means you can search for MISSING_TRANSLATION to find and add them.
 // If a translation is the same as English, make sure to add "SAME_TRANSLATION:" before the translation key,
 // similar to how it is before missing translation.
-// It is also possible to force this update by clicking the language in-game while holding down shift.
+// It is also possible to force this update by clicking the language in game while holding down shift.
 [lang]
 localname=Español
 engname=Spanish
@@ -1515,8 +1515,8 @@ binocularstip=Mira más lejos a la distancia
 wrappingpapertip=Se utiliza para envolver regalos para sus seres queridos
 ropetip=Usado para llevarse a la mayoría de animales pasivos
 biomemaptip=Sirve para encontrar islas a tu alrededor
-mapfail=el mapa no a dado información relevante
-mapresult=Mapa muestra <dir> tu ubicación (<coord>)
+mapfail=El mapa no a dado información relevante
+mapresult=El mapa apunta hacia <dir> desde tu ubicación (<coord>)
 boattip1=Puede ser colocado en el agua \no ser usado como montura
 boattip2=Distancia de viaje +1
 minecarttip=Puede usarse en vías \nor se usa desde la casilla de monturas
@@ -3302,7 +3302,7 @@ beesoverhalf=Tiene más de la mitad de las abejas
 beesalmostfull=Está casi lleno de abejas
 beesfull=Completamente lleno de abejas
 insertvinyl=Insertar vinilo:
-musicplaying=Jugando <name>
+musicplaying=Reproduciendo <name>
 emptywaystones=Ranuras de paso de piedra vacías: <count>
 waystoneempty=Ranura vacía
 waystonenum=Paso de piedra <num>
@@ -3642,7 +3642,7 @@ bossdefeat=§b<name> ha sido derrotado!
 epescape=§bEl Guardián malvado ha escapado debido a la luz
 bossmissingitem=§aFalta el elemento de activación
 staircaseopening=§iUna escalera oculta se está abriendo...
-humanraidapproaching=§b¡Los saqueadores se acercan al <settlement> Desde el <direction>!
+humanraidapproaching=§b¡Los saqueadores se acercan al <settlement> desde <direction>!
 humanraidpreparing=§b¡Los saqueadores se están preparando en <settlement>!
 humanraidattacking=§b¡Los saqueadores están atacando al <settlement>!
 humanraiddefeated=§a¡Los saqueadores fueron derrotados!
