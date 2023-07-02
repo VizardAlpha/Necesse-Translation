@@ -360,34 +360,34 @@ coffeebeans=Grão de Café
 sunflowerseed=Semente de Girassol
 wildsunflower=Girassol Selvagem
 sunflower=Girassol
-firemoneseed=Semente de Firemone
-wildfiremone=Firemone Selvagem
-SAME_TRANSLATION:firemone=Firemone
+firemoneseed=Semente de Fogo Fátuo
+wildfiremone=Fogo Fátuo Selvagem
+firemore=Fogo Fátuo
 iceblossomseed=Semente de Flor de gelo
 wildiceblossom=Flor de gelo Selvagem
 iceblossom=Flor de gelo
 mushroom=Cogumelo
 wildmushroom=Cogumelo Selvagem
 mushroomflower=Flor de Cogumelo
-caveglowsprout=Broto de Caveglow
-wildcaveglow=Caveglow Selvagem
-SAME_TRANSLATION:caveglow=Caveglow
+caveglowsprout=Broto de Lumunosa
+wildcaveglow=Lumunosa Selvagem
+caveglow=Lumunosa
 
 // Processing
 campfire=Fogueira
 cookingpot=Panela
 roastingstation=Grelha de Madeira
 cookingstation=Fogão de Cozinha
-compostbin=Tambor de Lixo
+compostbin=Composteira
 grainmill=Moinho
 cheesepress=Prensa de Queijo
-feedingtrough=Comedouro
+feedingtrough=Cocho
 singlerock=Única <rock>
 smallsinglerock=Pequena única <rock>
 
 rock=Pedra
 sandstonerock=Arenito
-swamprock=Pedra do Pântano
+swamprock=Pedra do Pantanosa
 snowrock=Pedra de Neve
 deeprock=Pedra das Cavernas Profundas
 deepsnowrock=Pedra de Neve das Cavernas Profundas
@@ -507,8 +507,8 @@ deepswampstone=Pedra do Pântano Profundo
 deepsandstone=Arenito das Cavernas Profundas
 batwing=Asa de Morcego
 silk=Seda
-honeybee=Mel de Abelha
-queenbee=Abelha rainha
+honeybee=Abelha Produtora de Mel
+queenbee=Abelha Rainha
 apiaryframe=Quadro de Mel
 wool=Lã
 leather=Couro
@@ -621,7 +621,7 @@ farmingscythe=Foice de Cultivo
 wrench=Chave Inglesa
 cutter=Cortador de fio
 wire=Fio
-SAME_TRANSLATION:net=Net
+net=Rede de Insetos
 
 // Swords
 woodsword=Espada de Madeira
@@ -1248,7 +1248,7 @@ piratetelescope=Estende o alcance de visão de viagem e bioma por 1
 leatherglovetip=Aumenta a velocidade de ataque em 10%
 trackerboottip=Aumenta a velocidade de movimento em 10%
 shinebelttip=Ilumina a área ao seu redor
-vampiresgift=Aumenta a velocidade de ataque em 15%
+vampiresgift=Aumenta a velocidade de movimento em 15%
 regenpendant=Dá uma pequena regeneração  de vida
 mobilitycloak=Dá ótima mobilidade fora de combate
 travelercloak=Dá uma ótima mobilidade na terra e no mar quando fora de combate
@@ -1263,7 +1263,7 @@ summonfoci1=Aumenta o dano de lacaios em 20%
 summonfoci2=Diminui o dano não proveniente de lacaios em 20%
 balancedfoci=Aumenta todo o dano causado em 15%
 ancientfeather=Aumenta a velocidade de projéteis em 50%
-airvesseltip=Adiciona 2 cargas de Dashs
+airvesseltip=Adiciona 2 cargas de avanços
 miningcharm=Aumenta o dano de ferramentas em 40%
 minersbouquettip=Aumenta a velocidade de mineração em 25%
 minersbouquetusetip=Balance para ativar um efeito calmante
@@ -1290,8 +1290,8 @@ spikedbatboots=Aumenta a velocidade de movimento em 25% e previne que fique desl
 froststonetip=Atacar alvos causa lentidão e dano adicional a eles\nDano Adicional:15 de dano por 5 segundos
 frostflametip=Atacar alvos causa lentidão e dano adicional a eles\nDano Adicional:35 de dano por 5 segundos
 calmingrose=Reduz taxa de geração de inimigos
-frenzyorbtip=Ganha até +40% de dano baseado na vida ausente
-templependanttip=Reduz o cooldown de dash em 25%
+frenzyorbtip=Ganha até +40% de dano baseado na vida perdida
+templependanttip=Reduz o tempo de recarga do avanço em 25%
 
 // Tools
 tooldmg=Dano de Ferramenta: <value>
@@ -1429,7 +1429,7 @@ accuracypot=Aumenta a chance de acerto crítico
 // Tiles
 tiletip=Pode ser colocado na maioria dos terrenos
 icetip=Pode ser colocado em água da costa
-stonepathtip=Dá um pequeno aumento de vida
+stonepathtip=Dá um pequeno aumento de velocidade de movimento
 
 // Objects
 placetip=Pode ser colocado
@@ -1785,8 +1785,8 @@ armorpen=<mod>% penetração de armadura
 armorpenflat=<mod> penetração de armadura
 knockbackout=<mod>% repulsão
 
-speed=<mod>% velocidade
-speedflat=<mod> velocidade
+speed=<mod>% velocidade de movimento
+speedflat=<mod> velocidade de movimento
 slow=<mod>% lento
 swimspeed=<mod>% velocidade de natação
 friction=<mod>% atrito
@@ -1837,11 +1837,11 @@ summonstargetrange=<mod>% distância do alvo de invocação
 
 attackmovement=<mod>% penalidade ao movimento de ataque
 projectilevel=<mod>% velocidade de projétil
-throwingvel=<mod>% velocidade de jogável
+throwingvel=<mod>% velocidade de arremessável
 
-dashstacks=<mod> pilha de dash
-dashcooldown=<mod>% cooldown de dash
-dashcooldownflat=<mod>s cooldown de dash
+dashstacks=<mod> acúmulo de avanço
+dashcooldown=<mod>% tempo de recarga do avanço
+dashcooldownflat=<mod>s tempo de recarga do avanço
 staminacap=<mod>% capacidade de resistência
 staminausage=<mod>% uso de resistência
 staminaregen=<mod>% regeneração de resistência
@@ -1876,7 +1876,7 @@ wildostrich=Avestruz Selvagem
 cow=Vaca
 calf=Bezerro
 pig=Porco
-piglet=PLeitão
+piglet=Leitão
 penguin=Pinguim
 honeybee=Abelha de Mel
 polarbear=Urso Polar
@@ -1897,7 +1897,7 @@ canarybird=Canário
 cardinalbird=Pássaro Cardeal
 spider=Aranha
 mouse=Rato
-SAME_TRANSLATION:caveling=Caveling
+caveling=Cavernidio
 
 // Humans
 human=Aldeão comum
@@ -1963,7 +1963,7 @@ deepcavespirit=Espirito das Cavernas Profundas
 skeletonminer=Esqueleto Minerador
 SAME_TRANSLATION:ninja=Ninja
 snowwolf=Lobo da Neve
-cryoflake=Floco de Crio
+cryoflake=Floco Criogênico
 giantswampslime=Slime do Pântano Gigante
 swampskeleton=Esqueleto do Pântano
 swampdweller=Habitante do Pântano
@@ -1971,9 +1971,9 @@ smallswampcavespider=Aranha pequena da Caverna do Pântano
 sandworm=Verme de Areia
 desertcrawler=Rastejante do Deserto
 ancientskeleton=Esqueleto Ancestral
-ancientskeletonthrower=Atirador de Esqueleto Ancestral
-ancientarmoredskeleton=Esqueleto Amadurado Ancestral
-ancientskeletonmage=Esqueleto Mago Ancestral
+ancientskeletonthrower=Esqueleto Ancestral Atirador
+ancientarmoredskeleton=Esqueleto Ancestral Armadurado
+ancientskeletonmage=Esqueleto Ancestral Mago
 humanraider=Saqueador
 
 // Pets/spawned
@@ -1993,7 +1993,7 @@ babysnowman=Boneco de neve bebê
 playerpoisonslime=Slime Venenoso
 playervulturehatchling=Filhote de Abutre
 playerreaperspirit=Espirito do Ceifador
-playercryoflake=Floco de Crio
+playercryoflake=Floco Criogênico
 playerpouncingslime=Slime de Ataque
 babyskeleton=Esqueleto Bebê
 babyskeletonmage=Esqueleto Mago Bebê
