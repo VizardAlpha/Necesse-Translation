@@ -15,6 +15,7 @@
 [lang]
 localname=Español
 engname=Spanish
+engname=Spanish-updating
 credits=Artyom Koptec#9403 \nLord Degurechaff \nSombra#7210 \nMehtronx#1868 \nTibu#1571 \nSedash#0736 \nArugerdev
 
 // Extra symbols that will be loaded in the font when using this language
@@ -691,8 +692,8 @@ spiderclaw=Garra arácnida
 ivysword=Espada de hiedra
 cutlass=Alfanje
 tungstensword=Espada de tungsteno
-reaperscythe=Guadaña de la muerte
-MISSING_TRANSLATION:sandknife=Sand Knife
+reaperscythe=Guadaña del Segador
+MISSING_TRANSLATION:sandknife=Navaja de las arenas
 venomslasher=Corte Venenoso
 antiquesword=Espada Antigua
 irongreatsword=Espadón de hierro
@@ -719,7 +720,7 @@ cryospear=Lanza criogénica
 // Glaives
 goldglaive=Alabarda dorada
 frostglaive=Alabarda glacial
-quartzglaive=Alabarda de tungsteno
+quartzglaive=Alabarda de cuarzo
 cryoglaive=Alabarda criogénica
 MISSING_TRANSLATION:slimeglaive=Alabarda babosa
 
@@ -871,11 +872,11 @@ mesmertablet=Tabla de hipnosis
 inducingamulet=Amuleto inductor
 lifeline=Línea vital
 frozensoul=Alma congelada
-magicfoci=Foci mágico
-rangefoci=Foci de rango
-meleefoci=Foci para melee
-summonfoci=Foci del invocador
-balancedfoci=Foci balanceado
+magicfoci=Enfoque Arcano
+rangefoci=Enfoque de Tirador
+meleefoci=Enfoque del guerrero
+summonfoci=Enfoque del invocador
+balancedfoci=Enfoque ambiguo
 ancientfeather=Pluma ancestral
 assassinscowl=Capucha del Asesino
 airvessel=Cargas de aire
@@ -907,9 +908,9 @@ spikedboots=Botas con púas
 spikedbatboots=Botas del murciélago picudo
 froststone=Piedra helada
 frostflame=Flama helada
-balancedfrostfirefoci=Foci balanceado de flama helada 
-calmingrose=Rosa de calma
-hysteriatablet=Tabla de histeria
+balancedfrostfirefoci=Enfoque balanceado de flamas gélidas 
+calmingrose=Rosa de la calma
+hysteriatablet=Tabla de la histeria
 frenzyorb=Orbe del frenesí
 scryingmirror=Espejo adivinador
 diggingclaw=Garra excavadora
@@ -942,21 +943,21 @@ MISSING_TRANSLATION:frosthat=Sombrero Helado
 frostchestplate=Pechera gélida
 frostboots=Botas gélidas
 ninjahood=Capucha ninja
-ninjarobe=Shinobi shozoku
-ninjashoes=Getas
+ninjarobe=Túnica de ninja
+ninjashoes=Botas ninja
 demonichelmet=Casco demoníaco
 demonicchestplate=Peto demoníaco
 demonicboots=Botas demoníacas
-voidmask=Máscara de vacío
-voidhat=Sombrero de vacío
-voidrobe=Túnica de vacío
-voidboots=Botas de vacío
-ivyhelmet=Casco de hiedra
-ivyhood=Sombrero de hiedra
-MISSING_TRANSLATION:ivyhat=Gorro de Enredadera
-ivycirclet=Diadema de hiedra
-ivychestplate=Pechera de hiedra
-ivyboots=Botas de hiedra
+voidmask=Máscara del vacío
+voidhat=Sombrero del vacío
+voidrobe=Túnica del vacío
+voidboots=Botas del vacío
+ivyhelmet=Casco de Enredaderas
+ivyhood=Sombrero de Enredaderas
+MISSING_TRANSLATION:ivyhat=Gorro de Enredaderas
+ivycirclet=Diadema de Enredaderas
+ivychestplate=Pechera de Enredaderas
+ivyboots=Botas de Enredaderas
 quartzhelmet=Casco de cuarzo
 quartzcrown=Corona de cuarzo
 quartzchestplate=Pechera de cuarzo
@@ -1306,7 +1307,7 @@ anyrawmeat=Cualquier carne cruda
 bulletuser=Cualquier munición
 anycompostable=Cualquier compostable
 anyfruit=Cualquier fruta
-MISSING_TRANSLATION:anytieressence=cualquier grado <tier> de esencia
+MISSING_TRANSLATION:anytieressence=Cualquier esencia de grado <tier>
 
 [itemtooltip]
 // Armor
@@ -1322,26 +1323,26 @@ armorvalue=<value> Armadura
 setbonus=Bonus por conjunto:
 ninjaset1=Eres un jodido ninja!
 ninjaset2=Elimina la reducción de velocidad de movimiento al atacar
-ivyhoodset=al atacar, envenena a los enemigos por \n15u x 5s
+ivyhoodset=Ataques envenenan al objetivo por\n15 puntos de vida transcurridos 5 segundos
 MISSING_TRANSLATION:ivyhatset=Ataques envenenan al objetivo por\n15 puntos de vida transcurridos 5 segundos
 ivyhelmetset=Al ser golpeado se libera veneno pegajoso
 ivycircletset=Durante el combate, invoca slimes venenosos ocasionalmente
-quartzset=Se obtiene un boost de velocidad después de ser golpeado \n20s de enfriamiento
-voidset=Presione [input=setability] para obtener un boost de velocidad
-tungstenset1=Resistencia al empuje
+quartzset=Se obtiene una mejora de velocidad al ser golpeado, \n20 segundos de enfriamiento
+voidset=Presione [input=setability] para obtener una mejora de velocidad
+tungstenset1=Resistencia total al empuje
 tungstenset2=Incrementa el empuje en 50%
-shadowhatset=Los ataques mágicos persiguen al enemigo\n25u x 5s
+shadowhatset=Los ataques mágicos Maldicen al objetivo causando\n25 puntos de daño en el lapso de 5 segundos
 shadowhoodset=+10% de daño cuando se está quieto
 surgicalmasktip=Mantiene a salvo a las personas a tu alrededor
 spiderchest=Empuje recibido reducido
 spiderset=Al golpear, envenena a los enemigos\n10u x5s\nInmunidad a la lentitud
-frostset=Ataques melee ralentizan y dañan al objetivo\n15u x 5s
+frostset=Ataques cuerpo a cuerpo ralentizan y dañan al objetivo\n15 puntos de vida en el lapso de 5 segundos
 glacialhelmetset=Ataques melee dispararán un témpano helado
 glacialcircletset=Las invacaciones atacarán a objetivos ralentizados
 myceliumhoodset=Mantén pulsado [input=setability] para enrizarte en el suelo \ny obtener +100% de velocidad de ataques a distancia
-myceliumscarfset=Cada golpe a los enemigos otorga +0.5%\nLa velocidad de movimiento se acumula hasta 100
-widowset=Ataca al objetivo envenenado por\n25 de daño durante 5 segundos\nOtorga inmunidad a la lentitud
-ancientfossilset=Presione [input=setability] para ganar 100% de probabilidad de crítico x5s
+myceliumscarfset=Cada golpe a los enemigos otorga +0.5%\n de velocidad de movimiento, se acumula hasta obtener 100% de velocidad
+widowset=Los ataques envenenan, dañando \n25 puntos de vida durante 5 segundos\nOtorga inmunidad a la lentitud
+ancientfossilset=Presione [input=setability] para ganar 100% de probabilidad de crítico durante 5 segundos
 MISSING_TRANSLATION:slimeset=presiona [input=setability] para reducir el daño recibido a 1 punto de vida por 5 seconds,\npero disminuye considerablemente tu resistencia al empuje
 MISSING_TRANSLATION:nightsteelset=presiona [input=setability] para Obtener un impulso y ser Inalcanzable, pero no puedes atacar durante 3 segundos
 
@@ -1389,13 +1390,13 @@ magicalquiver=Reduce el uso de flechas en 75%
 ammobox=Reduce el uso de munición en 75%
 frozenhearttip=Incrementa la vida máxima en 50pts
 frozenwavetip=Incrementa el daño crítico en 25%
-spidercharm=Al ser golpeado, el enemigo es envenenado \n40u x 5s
+spidercharm=Al recibir daño, el enemigo es envenenado, \nDañando 40 puntos de vida en el lapso de 5 segundos
 guardianshelltip=Equipa y presiona [input=trinketability] para obtener un poderoso escudo que te protegerá temporalmente
 fuzzydicetip=Incrementa la probabilidad de crítico en 5%
 noblehorseshoetip=Incrementa la probabilidad de crítico en 5%
 luckycapetip=Incrementa la probabilidad de crítico en 10%
 bonehilt=Incrementa la penetración de armadura en 20pts
-firestonetip=Los ataques incendian al objetivo y le infligen \n25u x5s
+firestonetip=Los ataques incendian al objetivo, causando\n25 de daño a la vida en un lapso de 5 segundos
 lifependant=Proporciona regeneración de vida mejorada
 constructionhammer=Incrementa la velocidad de construcción
 telescopicladder=Incrementa el rango de construcción
@@ -1403,8 +1404,8 @@ toolextender=Incrementa el rango de minería
 itemattractortip=Incrementa el rango de recogida de objetos
 spikedboots=Incrementa la velocidad de movimiento en 15%\nEvita patinar
 spikedbatboots=Incrementa la velocidad de movimiento en 25%\nEvita patinar
-froststonetip=Atacar ralentiza y daña al objetivo\n15u x 5s
-frostflametip=Atacar ralentiza y daña al objetivo\n35u x 5s
+froststonetip=Atacar ralentiza y daña al objetivo\n15 Puntos de vida en el lapso de 5 segundos
+frostflametip=Atacar ralentiza y daña al objetivo\n35 Puntos de vida en el lapso de 5 segundos
 calmingrose=Reduce la tasa de aparición de mobs
 frenzyorbtip=Da hasta +40 % de daño según la salud faltante
 templependanttip=Reduce el tiempo de enfriamiento de los dashes en 25%
@@ -1424,13 +1425,13 @@ myceliumtooltip=Puedes minar Fósil Ancestral en las cuevas profundas del desier
 
 // Weapons
 damagetip=Daño: <value>
-truedamagetip=Daño real: <value>
-meleedamagetip=Daño melee : <value>
+truedamagetip=Daño verdadero: <value>
+meleedamagetip=Daño cuerpo a cuerpo : <value>
 rangeddamagetip=Daño a distancia: <value>
 magicdamagetip=Daño mágico: <value>
 summondamagetip=Daño por invocación: <value>
 attackspeedtip=Velocidad de ataque: <value>
-crittip=Probabilidad de crítico: <value>%
+crittip=Probabilidad de golpe crítico: <value>%
 knockbacktip=Empuje: <value>
 MISSING_TRANSLATION:manacosttip=Uso de maná: <value>
 ammotip=Munición disponible: <value>
@@ -1635,8 +1636,8 @@ fireworkyescrackle=Truena
 itemcount=<amount> Objetos totales
 craftingmat=Material de fabricación
 mountslot=Montura
-cointip=Usable para comerciar con aldeanos
-baittip=Usable durante la pesca
+cointip=Se usa para comerciar con aldeanos
+baittip=se usa como carnada de pesca
 fishingrodtip=Usado para pescar
 fishingpower=Poder de pesca: <value>
 fishinglines=<value> Hilos de pesca
@@ -1644,7 +1645,7 @@ baitamounttip=Cebo disponible: <value>
 evilsevent=Sirve para invocar a un poderosa criatura hostil
 royaleggtip1=Invoca a una terrorífica enredadora
 royaleggtip2=Debe usarse en cuevas de la tundra
-royaleggtip3=*Chequeos de fobia*
+royaleggtip3=KYAaaAAAaaaAA!!!
 voidcallertip1=Invoca al mago vacuo
 voidcallertip2=Debe usarse en la arena de las mazmorras
 spikedfossiltip1=Llama a un poderoso rastreador
@@ -1670,19 +1671,19 @@ mapfail=El mapa no a dado información relevante
 mapresult=El mapa apunta hacia <dir> desde tu ubicación (<coord>)
 boattip1=Puede ser colocado en el agua \no ser usado como montura
 boattip2=Distancia de viaje +1
-minecarttip=Puede usarse en vías \nor se usa desde la casilla de monturas
-shearstip=Puede usarse para esquilar ovejas
+minecarttip=Puede usarse en vías \nNo se usa desde la casilla de monturas
+shearstip=Se usa para esquilar ovejas
 buckettip=Usado para recoger líquidos o leche de vaca
 infwaterbuckettip=Recoge y retiene el agua
 infwaterbucketplace=Cubeta de agua infinita
 infwaterbucketpickup=Recogedor de agua infinito
-demonhearttip=Sube la salud máxima a 200pts permanentemente
-lifeelixirtip=Sube la salud máxima de 10pts a 300pts permanentemente
+demonhearttip=Incrementa la salud máxima en 200 puntos permanentemente
+lifeelixirtip=Incrementa la salud máxima en 10 puntos permanentemente \nSe acumula hasta 300 puntos
 emptypendanttip=Incrementa el máximo de casillas de accesorio en 5 permanentemente
 wizardsockettip=Incrementa el máximo de casillas de accesorio en 6 permanentemente
 vinyltip=Colócalo en un tocadiscos para reproducir música
 recalltip=Te teleporta a tu punto de reaparición
-homeportaltip=Crea un portal a tu Spawn
+homeportaltip=Crea un portal a tu punto de reaparición
 homeportalcleartip=[input=mouse2] para limpiar los portales generados
 stinkflasktip=Te recubre en una esencia que atrae a los enemigos
 enchantingscrollequipmenttip=Se usa para encantar un elemento de equipo con <enchantment>
@@ -1707,7 +1708,7 @@ weaponslot=Ranura para armas
 voidshardtip=Esencia mágica
 glassbottletip=Usado para la alquimia
 MISSING_TRANSLATION:gatewaymaterial=Se usa en el altar corrupto
-MISSING_TRANSLATION:tieressence=Grado <tier> de esencia
+MISSING_TRANSLATION:tieressence=Esencia de grado <tier>
 mapfragmenttip=Combina 2 para hacer un mapa
 sparepartstip=Necesario para fabricar un bote de acero
 wiretip=Puede usarse si se tiene una llave inglesa
@@ -1733,7 +1734,7 @@ fireworkrockettip=Puede lanzarse desde la mano o con un dispensador
 storedammo=Munición guardada: <items>
 rclickopentip=[input=-99] para abrir
 rclickinvopentip=[input=-99] Dentro del inventario para abrir
-MISSING_TRANSLATION:rclickinvrenametip=[input=-99] in inventory to rename
+MISSING_TRANSLATION:rclickinvrenametip=[input=-99] en el inventario para renombrar
 rclickinvopenerror=Debe estar en el inventario
 usetoopentip=Usar para abrir
 landfilltip=Se utiliza para sacar agua
@@ -1849,7 +1850,8 @@ questitems=Objetos de misión
 unknownitems=<count> Objetos desconocidos
 
 [enchantment]
-MISSING_TRANSLATION:format=<enchantment> <item>
+SAME_TRANSLATION:format=<item> <enchantment>
+// in spanish the adjetives are after the objet
 // Trinkets
 keen=Afilado
 blunt=Desafilado
@@ -1865,13 +1867,13 @@ bulky=Voluminoso
 puny=Flaco
 
 // Espada/melee weapon enchants
-berserk=Berserker
+berserk=Del berserker
 adamant=Firme
 agile=Ágil
 harmful=Dañina
 grand=Grande
 docile=Dócil
-shoddy=Pacotilla
+shoddy=De pacotilla
 amateur=Aficionado
 envious=Envidiosa
 
@@ -1891,14 +1893,14 @@ divine=Divino
 wrathful=Colérico
 wise=Sabio
 adept=Adepto
-apprentice=Aprendiz
+apprentice=Del prendiz
 decaying=Decadente
-novice=Novato
+novice=Del novato
 daft=Loco
 corrupt=Corrupto
 
 // Invocacion weapon enchants
-savage=Salvage
+savage=Salvaje
 athletic=Atlético
 mindful=Consciente
 proud=Orgulloso
@@ -1958,14 +1960,14 @@ maxhealthflat=<mod> Vida max
 MISSING_TRANSLATION:maxmana=<mod>% de maná maximo
 MISSING_TRANSLATION:maxmanaflat=<mod> de maná maximo
 
-regen=<mod>% Regeneración
-regenflat=<mod> Regeneración
+regen=<mod>% Regeneración permanente
+regenflat=<mod> Regeneración permanente
 combatregen=<mod>% Regeneración en combate
 combatregenflat=<mod> Regeneración en combate
 MISSING_TRANSLATION:manaregen=<mod>% de regeneracion de mana fuera de combate
 MISSING_TRANSLATION:manaregenflat=<mod> de regeneracion de mana fuera de combate
-MISSING_TRANSLATION:combatmanaregen=<mod>% de regeneracion de mana en combate
-MISSING_TRANSLATION:combatmanaregenflat=<mod> de regeneracion de mana en combate
+MISSING_TRANSLATION:combatmanaregen=<mod>% de regeneracion de mana Permanente
+MISSING_TRANSLATION:combatmanaregenflat=<mod> de regeneracion de mana Permanente
 
 poisondamage=<mod>% Daño por envenenamiento
 poisondamageflat=<mod> Daño por envenenamiento
@@ -2093,8 +2095,8 @@ elderhuman=Anciano
 elderhumanname=<name> el anciano
 anglerhuman=Pescador
 anglerhumanname=<name> el pescador
-animalkeeperhuman=albéitar
-animalkeeperhumanname=<name> el albéitar
+animalkeeperhuman=Domador de animales
+animalkeeperhumanname=<name> El Domador
 pawnbrokerhuman=Adquisidor
 pawnbrokerhumanname=<name> el adquisidor
 stylisthuman=Estilista
@@ -2104,7 +2106,7 @@ piratehumanname=<name> el pirata caído
 explorerhuman=Explorador
 explorerhumanname=<name> el explorador
 MISSING_TRANSLATION:minerhuman=Minero
-MISSING_TRANSLATION:minerhumanname=<name> El minero
+MISSING_TRANSLATION:minerhumanname=<name> la minera
 travelingmerchant=Mercader ambulante
 travelingmerchantname=<name> el mercader ambulante
 
@@ -2553,7 +2555,7 @@ modsmismatch=Los mods no coinciden
 
 [deaths]
 default=<victim> Murió
-MISSING_TRANSLATION:settlerfrom=<victim> de <settlement>
+MISSING_TRANSLATION:Poblador procedente de=<victim> de <settlement>
 unknownatt=Desconocido
 toobuffed=<victim> fue muy imprudente
 generic1=<victim> fue asesinado por <attacker>
@@ -2887,11 +2889,11 @@ clearspawnbutton=Eliminar punto de reaparición
 // Main menu
 continueworld=Continuar mundo
 continuetip=Continuar en <world>
-continuehost=Hostear <world>
+continuehost=Alojar <world> en multijugador
 continuejoin=Unirse <name>
 newworld=Nuevo mundo
 loadworld=Cargar mundo
-hostworld=Hostear mundo
+hostworld=alojar mundo multijugador
 multiplayer=Multijugador
 settings=Ajustes
 SAME_TRANSLATION:mods=Mods
@@ -2899,7 +2901,7 @@ exit=Salir
 join=Unirse <name>
 joinfriend=Invitar amigos
 nofriendsingame=Sin amigos en el juego
-joinfriendhow=Asegúrate de que tu amigo hostee su juego a través del menú del juego
+joinfriendhow=Asegúrate de que tu amigo aloje mundo a través del menú del juego
 loadsave=Cargar
 confirmdeletesave=Borrar guardado "<save>"?
 deletesave=Borrar
@@ -3254,14 +3256,14 @@ settlermood=¿Cómo te sientes aquí?
 settlerjoinme=¿Te unirías a mí asentamiento?
 MISSING_TRANSLATION:settlerjoinparty=Únete a mi grupo de exploración
 MISSING_TRANSLATION:settlerjoinpartynothappy=No quiero unirme a ti porque soy infeliz
-MISSING_TRANSLATION:settlerleaveparty=Deja mi grupo de exploración
+MISSING_TRANSLATION:settlerleaveparty=expulsar del grupo de exploración
 MISSING_TRANSLATION:settlerreturntosettlement=Regresa al asentamiento ahora
-MISSING_TRANSLATION:settlerleftnofood=§a<name> Dejó la fiesta de aventuras porque le faltaba comida
-MISSING_TRANSLATION:settlerconfigureparty=Ajuste de expedición
+MISSING_TRANSLATION:settlerleftnofood=§a<name> Dejó el grupo de expediciónporque le faltaba comida
+MISSING_TRANSLATION:settlerconfigureparty=Ajustes de expedición
 MISSING_TRANSLATION:settlerpartytip=Los miembros del grupo aumentan ligeramente la tasa de aparición de enemigos y la salud de los jefes
-MISSING_TRANSLATION:settlerpartyinventory=Inventario de expedición
+MISSING_TRANSLATION:settlerpartyinventory=Inventario de la expedición
 MISSING_TRANSLATION:settlerpartyinventorytip=Añade comida y pociones para que las usen los miembros de tu grupo
-MISSING_TRANSLATION:settlerpartyinventorycompress=Comprimir inventario
+MISSING_TRANSLATION:settlerpartyinventorycompress=Aligerar inventario
 settlergoodbye=Adios
 settlerrecruitcost=Me uniré a tu asentamiento por <cost>
 settlerrecruitfree=Me encantaría unirme a su asentamiento!
@@ -3271,7 +3273,7 @@ settlerrecruitnoperm=No tienes permiso para reclutar a este colono
 settlernorecruit=Quiero quedarme aquí por ahora
 settlerwhatcanyoudo=Qué puedes hacer?
 settlericando=Puedo ayudar en tu asentamiento con <list>
-MISSING_TRANSLATION:settlericanadventure=Y puedo acompañarte en las expediciones
+MISSING_TRANSLATION:settlericanadventure=y puedo acompañarte en las expediciones
 settlercarryitems=Llevo estos objetos
 settlerreceiveitems=Recoger objetos
 settlerchangeequipment=¡Vamos a ver tu equipamiento!
@@ -3575,7 +3577,7 @@ MISSING_TRANSLATION:incursioncompletebutton=Completar incursión
 MISSING_TRANSLATION:incursionnowcomplete=§7ahora la incursión se puede completar
 MISSING_TRANSLATION:incursionnowclose=§7La incursión ya se puede cerrar
 MISSING_TRANSLATION:incursionenterbutton=Entrar en la incursión
-MISSING_TRANSLATION:incursionclosebutton=Desactivar la entrada
+MISSING_TRANSLATION:incursionclosebutton=Cerrar Portal
 MISSING_TRANSLATION:incursionconfirmcomplete=¿Completar incursión?
 MISSING_TRANSLATION:incursionconfirmclose=¿Cerrar la incursión?
 MISSING_TRANSLATION:incursionconfirmdelete=Los elementos que queden dentro de la incursión se perderán para siempre y no podrás volver a abrir el mismo
