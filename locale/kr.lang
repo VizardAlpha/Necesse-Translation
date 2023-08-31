@@ -1,4 +1,3 @@
-// Korean translations
 // Every language must have lang.localname and lang.engname to be loaded.
 // File must be saved with UTF-8 encoding.
 
@@ -9,9 +8,7 @@
 
 // With every game update, all included language files will be updated with missing translations.
 // This means you can search for MISSING_TRANSLATION to find and add them.
-// If a translation is the same as English, make sure to add "SAME_TRANSLATION:" before the translation key,
 // similar to how it is before missing translation.
-// It is also possible to force this update by clicking the language in game while holding down shift.
 [lang]
 localname=한국어
 engname=Korean
@@ -888,6 +885,10 @@ sparegemstones=예비용 보석
 spellstone=주문석
 dreamcatcher=드림 캐처
 nightmaretalisman=악몽의 탈리스만
+MISSING_TRANSLATION:prophecyslab=Prophecy Slab
+MISSING_TRANSLATION:magicmanual=Magic Manual
+MISSING_TRANSLATION:scryingcards=Scrying Cards
+MISSING_TRANSLATION:forbiddenspellbook=Forbidden Spellbook
 magicalquiver=마법의 화살집
 ammobox=탄약 보관함
 frozenheart=얼어붙은 심장
@@ -1385,6 +1386,10 @@ sparegemstonestip=최대 마나 20% 증가
 spellstonetip=최대 마나 50% 증가
 dreamcatchertip=마나 재생 100% 증가
 nightmaretalismantip=마나 재생 250% 증가
+MISSING_TRANSLATION:prophecyslabtip=Increases mana regen by 100%
+MISSING_TRANSLATION:magicmanualtip=Increases mana regen by 100%
+MISSING_TRANSLATION:scryingcardstip=Increases mana regen by 250%
+MISSING_TRANSLATION:forbiddenspellbooktip=Increases magic damage by 50%,\nbut increases mana usage by 100%
 magicalquiver=75% 확률로 발사시 화살을 소모하지 않음
 ammobox=75% 확률로 발사시 총알을 소모하지 않음
 frozenhearttip=최대 체력 50 증가
@@ -1534,6 +1539,7 @@ duration=<value> 동안
 healthpot=체력 <health> 즉시 회복
 healthpottip=빠른 사용을 위해 <key>을(를) 누르십시오.
 manapot=<mana>% 만큼 마나를 즉시 회복
+MISSING_TRANSLATION:manaflatpot=Restores <mana> mana instantly
 manapottip=단축키 <key>를 눌러 즉시 사용
 attackspeedpot=공격 속도 증가
 greaterattackspeedpot=공격 속도 크게 증가
@@ -1863,6 +1869,8 @@ precise=정밀한
 sloppy=엉성한
 bulky=거대한
 puny=자그마한
+MISSING_TRANSLATION:magical=Magical
+MISSING_TRANSLATION:draining=Draining
 
 // Sword/melee weapon enchants
 berserk=광전사의
@@ -3962,9 +3970,12 @@ datacorrupted=게임 데이터 파일이 손상된 것 같습니다. :(\n\n스�
 savefailed1=월드를 저장하지 못했습니다.
 savefailed2=게임이 저장되었는지 확인하려면 월드를 종료하고 다시 로드하세요
 savecompressfailed=이것은 일반적으로 바이러스 백신이 압축 저장을 차단하기 때문에 발생합니다.\n\n파일을 압축하지 않고 저장하시겠습니까?
+MISSING_TRANSLATION:saveiscompressed=This save is compressed and may not work properly when saving
 createworldfailed=월드를 만드는 도중 오류가 발생했습니다.
 loadworldfailed=월드를 로드하는 도중 오류가 발생했습니다.
 backupworldfailed=월드를 백업하는 도중 오류가 발생했습니다.
+MISSING_TRANSLATION:renamefailed=Could not rename save
+MISSING_TRANSLATION:savenotclosed=Could not properly save this world previously. This is usually caused by another process, like an antivirus preventing the save.\nA restart might fix this.
 restorebackup=백업은 순차적으로 생성됩니다. 월드 불러오기 메뉴 내에서 찾아서 복구할 수 있습니다.
 statssaveeerror=스테이터스 저장 폴더를 생성하는 도중 오류가 발생했습니다. 스테이터스값이 저장되지 않을 수 있습니다.
 workinprogress=작업 진행중

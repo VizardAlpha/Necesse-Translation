@@ -11,7 +11,7 @@
 // This means you can search for MISSING_TRANSLATION to find and add them.
 // If a translation is the same as English, make sure to add "SAME_TRANSLATION:" before the translation key,
 // similar to how it is before missing translation.
-// It is also possible to force this update by clicking the language in-game while holding down shift.
+// It is also possible to force this update my clicking the language in game while holding down shift.
 [lang]
 localname=English
 engname=English
@@ -896,6 +896,10 @@ sparegemstones=Spare Gemstones
 spellstone=Spell Stone
 dreamcatcher=Dream Catcher
 nightmaretalisman=Nightmare Talisman
+prophecyslab=Prophecy Slab
+magicmanual=Magic Manual
+scryingcards=Scrying Cards
+forbiddenspellbook=Forbidden Spellbook
 magicalquiver=Magical Quiver
 ammobox=Ammo Box
 frozenheart=Frozen Heart
@@ -1393,6 +1397,10 @@ sparegemstonestip=Increases max mana by 20%
 spellstonetip=Increases max mana by 50%
 dreamcatchertip=Increases mana regen by 100%
 nightmaretalismantip=Increases mana regen by 250%
+prophecyslabtip=Increases mana regen by 100%
+magicmanualtip=Increases mana regen by 100%
+scryingcardstip=Increases mana regen by 250%
+forbiddenspellbooktip=Increases magic damage by 50%,\nbut increases mana usage by 100%
 magicalquiver=Reduces arrow usage by 75%
 ammobox=Reduces bullet usage by 75%
 frozenhearttip=Increases max health by 50
@@ -1542,11 +1550,12 @@ duration=<value> duration
 healthpot=Restores <health> health instantly
 healthpottip=Press <key> for quick use
 manapot=Restores <mana>% mana instantly
+manaflatpot=Restores <mana> mana instantly
 manapottip=Press <key> for quick use
 attackspeedpot=Increases attack speed
 greaterattackspeedpot=Greatly increases attack speed
 battlepot=Increases damage dealt by 10%
-greaterbattlepot=Greatly increases damage dealt by 10%
+greaterbattlepot=Increases damage dealt by 15%
 greaterhealthregenpot=Greatly increases health regeneration
 healthregenpot=Increases health regeneration
 manaregenpot=Increases mana regeneration
@@ -1871,6 +1880,8 @@ precise=Precise
 sloppy=Sloppy
 bulky=Bulky
 puny=Puny
+magical=Magical
+draining=Draining
 
 // Sword/melee weapon enchants
 berserk=Berserk
@@ -3973,10 +3984,13 @@ outofmemory=Looks like your system ran out of memory :(\n\nTry to close some of 
 datacorrupted=Looks like the game data file has been corrupted :(\n\nTry to validate the game files in Steam.\nIf the problem still happens, please report it in the official Discord or on the Steam Discussions board.
 savefailed1=Failed trying to save the world:
 savefailed2=To make sure the game saves, try to exit and reload the world.
-savecompressfailed=This is usually caused by an anti-virus blocking compressed saves.\n\nDo you want to save future files uncompressed?
+savecompressfailed=This is usually caused by an antivirus blocking compressed saves.\n\nDo you want to save future files uncompressed?
+saveiscompressed=This save is compressed and may not work properly when saving
 createworldfailed=Error creating world
 loadworldfailed=Error loading world
 backupworldfailed=Error backing up world
+renamefailed=Could not rename save
+savenotclosed=Could not properly save this world previously. This is usually caused by another process, like an antivirus preventing the save.\nA restart might fix this.
 restorebackup=Backups are created periodically. You can find and restore them inside the load world menu.
 statssaveeerror=Error creating folder to save stats. Stats may not be saved.
 workinprogress=Work in progress

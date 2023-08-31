@@ -11,7 +11,6 @@
 // This means you can search for MISSING_TRANSLATION to find and add them.
 // If a translation is the same as English, make sure to add "SAME_TRANSLATION:" before the translation key,
 // similar to how it is before missing translation.
-// It is also possible to force this update by clicking the language in game while holding down shift.
 [lang]
 localname=Українська
 engname=Ukrainian
@@ -888,6 +887,10 @@ sparegemstones=Частинки самоцвіту
 spellstone=Магічний камінь
 dreamcatcher=Ловець снів
 nightmaretalisman=Кошмарний талісман
+MISSING_TRANSLATION:prophecyslab=Prophecy Slab
+MISSING_TRANSLATION:magicmanual=Magic Manual
+MISSING_TRANSLATION:scryingcards=Scrying Cards
+MISSING_TRANSLATION:forbiddenspellbook=Forbidden Spellbook
 magicalquiver=Чарівний сагайдак
 ammobox=Ящик патронів
 frozenheart=Крижане серце
@@ -1385,6 +1388,10 @@ sparegemstonestip=Збільшує максимальну ману на 20%
 spellstonetip=Збільшує максимальну ману на 50%
 dreamcatchertip=Збільшує регенерацію мани на 100%
 nightmaretalismantip=Збільшує регенерацію мани на 250%
+MISSING_TRANSLATION:prophecyslabtip=Increases mana regen by 100%
+MISSING_TRANSLATION:magicmanualtip=Increases mana regen by 100%
+MISSING_TRANSLATION:scryingcardstip=Increases mana regen by 250%
+MISSING_TRANSLATION:forbiddenspellbooktip=Increases magic damage by 50%,\nbut increases mana usage by 100%
 magicalquiver=Зменшує використання стріл на 75%
 ammobox=Зменшує використання куль на 75%
 frozenhearttip=Збільшує максимальне здоров’я на 50
@@ -1534,6 +1541,7 @@ duration=<value> тривалість
 healthpot=Миттєво відновлює <health> здоров’я
 healthpottip=Натисніть <key> для швидкого використання
 manapot=Миттєво відновлює <mana>% мани
+MISSING_TRANSLATION:manaflatpot=Restores <mana> mana instantly
 manapottip=Натисніть <key> для швидкого використання
 attackspeedpot=Збільшує швидкість атаки
 greaterattackspeedpot=Значно збільшує швидкість атаки
@@ -1863,6 +1871,8 @@ precise=Точності
 sloppy=Неакуратності
 bulky=Громіздкості
 puny=Кволості
+MISSING_TRANSLATION:magical=Magical
+MISSING_TRANSLATION:draining=Draining
 
 // Sword/melee weapon enchants
 berserk=Навіженості
@@ -3962,9 +3972,12 @@ datacorrupted=Схоже, файл даних гри пошкоджено :(\n\n
 savefailed1=Не вдалося зберегти світ:
 savefailed2=Щоб переконатися, що гра зберігається, спробуйте вийти та перезавантажити світ.
 savecompressfailed=Зазвичай це відбувається через те, що антивірус блокує архівні файли.\n\nВи хочете зберегти майбутні файли нестисненими?
+MISSING_TRANSLATION:saveiscompressed=This save is compressed and may not work properly when saving
 createworldfailed=Помилка створення світу
 loadworldfailed=Помилка завантаження світу
 backupworldfailed=Помилка резервного копіювання світу
+MISSING_TRANSLATION:renamefailed=Could not rename save
+MISSING_TRANSLATION:savenotclosed=Could not properly save this world previously. This is usually caused by another process, like an antivirus preventing the save.\nA restart might fix this.
 restorebackup=Резервні копії створюються періодично. Ви можете знайти та відновити їх у меню завантаження світу.
 statssaveeerror=Помилка створення папки для статистики. Статистика не буде збережена.
 workinprogress=В процесі розробки

@@ -9,7 +9,6 @@
 
 // With every game update, all included language files will be updated with missing translations.
 // This means you can search for MISSING_TRANSLATION to find and add them.
-// If a translation is the same as English, make sure to add "SAME_TRANSLATION:" before the translation key,
 // If a translation is the same as english, make sure to add "SAME_TRANSLATION:" before the translation key,
 // similar to how it is before missing translation.
 // It is also possible to force this update by clicking the language in game while holding down shift.
@@ -889,6 +888,10 @@ MISSING_TRANSLATION:sparegemstones=Spare Gemstones
 MISSING_TRANSLATION:spellstone=Spell Stone
 MISSING_TRANSLATION:dreamcatcher=Dream Catcher
 MISSING_TRANSLATION:nightmaretalisman=Nightmare Talisman
+MISSING_TRANSLATION:prophecyslab=Prophecy Slab
+MISSING_TRANSLATION:magicmanual=Magic Manual
+MISSING_TRANSLATION:scryingcards=Scrying Cards
+MISSING_TRANSLATION:forbiddenspellbook=Forbidden Spellbook
 magicalquiver=Büyülü Ok Kılıfı
 ammobox=Cephane Kutusu
 frozenheart=Donmuş Kalp
@@ -1386,6 +1389,10 @@ MISSING_TRANSLATION:sparegemstonestip=Increases max mana by 20%
 MISSING_TRANSLATION:spellstonetip=Increases max mana by 50%
 MISSING_TRANSLATION:dreamcatchertip=Increases mana regen by 100%
 MISSING_TRANSLATION:nightmaretalismantip=Increases mana regen by 250%
+MISSING_TRANSLATION:prophecyslabtip=Increases mana regen by 100%
+MISSING_TRANSLATION:magicmanualtip=Increases mana regen by 100%
+MISSING_TRANSLATION:scryingcardstip=Increases mana regen by 250%
+MISSING_TRANSLATION:forbiddenspellbooktip=Increases magic damage by 50%,\nbut increases mana usage by 100%
 magicalquiver=Ok kullanımı %75 azalır
 ammobox=Mermi kullanımı %75 azalır
 frozenhearttip=Sağlık en fazla 50 artar
@@ -1535,11 +1542,12 @@ duration=<value> etki süresi
 healthpot=Anında <health> sağlık yeniler
 healthpottip=Hızlı kullanım için <key> tuşuna bas
 MISSING_TRANSLATION:manapot=Restores <mana>% mana instantly
+MISSING_TRANSLATION:manaflatpot=Restores <mana> mana instantly
 MISSING_TRANSLATION:manapottip=Press <key> for quick use
 attackspeedpot=Saldırı hızını artırır
 MISSING_TRANSLATION:greaterattackspeedpot=Greatly increases attack speed
 battlepot=Verilen hasarı %10 artırır
-MISSING_TRANSLATION:greaterbattlepot=Greatly increases damage dealt by 10%
+MISSING_TRANSLATION:greaterbattlepot=Increases damage dealt by 15%
 MISSING_TRANSLATION:greaterhealthregenpot=Greatly increases health regeneration
 MISSING_TRANSLATION:healthregenpot=Increases health regeneration
 MISSING_TRANSLATION:manaregenpot=Increases mana regeneration
@@ -1864,6 +1872,8 @@ precise=Delici
 sloppy=Dağınık
 bulky=Büyük
 puny=Çelimsiz
+MISSING_TRANSLATION:magical=Magical
+MISSING_TRANSLATION:draining=Draining
 
 // Kılıç/melee weapon enchants
 berserk=Öfkeli
@@ -3963,9 +3973,12 @@ datacorrupted=Anlaşılan oyunun veri dosyası bozulmuş :(\n\nOyun dosyaların�
 savefailed1=Dünyayı kaydetme başarısız oldu:
 savefailed2=Oyunun kaydedildiğinden emin olmak için, oyundan çıkış yapıp yeniden yüklemeyi dene.
 savecompressfailed=Bu genellikle anti-virüs programlarının sıkıştırılmış kayıt dosyasını engellemesinden meydana gelir.\n\nGelecek dosyalarını sıkıştırmadan kaydetmek ister misin?
+MISSING_TRANSLATION:saveiscompressed=This save is compressed and may not work properly when saving
 createworldfailed=Dünya yaratırken hata
 loadworldfailed=Dünya yüklenirken hata
 backupworldfailed=Dünya yedeklerden hata
+MISSING_TRANSLATION:renamefailed=Could not rename save
+MISSING_TRANSLATION:savenotclosed=Could not properly save this world previously. This is usually caused by another process, like an antivirus preventing the save.\nA restart might fix this.
 restorebackup=Belirli aralıklarla yedekler oluşturulur.Oluşturulan yedekleri dünya yükleme menüsünde bulabilirsin ve geri yükleyebilirsin.
 statssaveeerror=İstatistikleri kaydetmek için dosya oluşturulurken hata meydana geldi. İstatistikler kaydedilmemiş olabilir.
 workinprogress=Çalışma altında

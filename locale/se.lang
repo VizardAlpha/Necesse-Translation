@@ -12,6 +12,7 @@
 // If a translation is the same as English, make sure to add "SAME_TRANSLATION:" before the translation key,
 // similar to how it is before missing translation.
 // It is also possible to force this update by clicking the language in game while holding down shift.
+// It is also possible to force this update by clicking the language in-game while holding down shift.
 [lang]
 localname=Svenska
 engname=Swedish
@@ -888,6 +889,10 @@ MISSING_TRANSLATION:sparegemstones=Spare Gemstones
 MISSING_TRANSLATION:spellstone=Spell Stone
 MISSING_TRANSLATION:dreamcatcher=Dream Catcher
 MISSING_TRANSLATION:nightmaretalisman=Nightmare Talisman
+MISSING_TRANSLATION:prophecyslab=Prophecy Slab
+MISSING_TRANSLATION:magicmanual=Magic Manual
+MISSING_TRANSLATION:scryingcards=Scrying Cards
+MISSING_TRANSLATION:forbiddenspellbook=Forbidden Spellbook
 magicalquiver=Magisk koger
 ammobox=Ammunitionslåda
 frozenheart=Fruset hjärta
@@ -1388,6 +1393,10 @@ MISSING_TRANSLATION:sparegemstonestip=Increases max mana by 20%
 MISSING_TRANSLATION:spellstonetip=Increases max mana by 50%
 MISSING_TRANSLATION:dreamcatchertip=Increases mana regen by 100%
 MISSING_TRANSLATION:nightmaretalismantip=Increases mana regen by 250%
+MISSING_TRANSLATION:prophecyslabtip=Increases mana regen by 100%
+MISSING_TRANSLATION:magicmanualtip=Increases mana regen by 100%
+MISSING_TRANSLATION:scryingcardstip=Increases mana regen by 250%
+MISSING_TRANSLATION:forbiddenspellbooktip=Increases magic damage by 50%,\nbut increases mana usage by 100%
 magicalquiver=Minskar användning av pilar med 75%
 ammobox=Minskar användning av kulor med by 75%
 frozenhearttip=Ökar maxliv med 50
@@ -1537,11 +1546,12 @@ duration=<value> varaktighet
 healthpot=Återställer <health> liv direkt
 healthpottip=Använd <key> för snabbåtkomst
 MISSING_TRANSLATION:manapot=Restores <mana>% mana instantly
+MISSING_TRANSLATION:manaflatpot=Restores <mana> mana instantly
 MISSING_TRANSLATION:manapottip=Press <key> for quick use
 attackspeedpot=Ökar attackhastighet
 MISSING_TRANSLATION:greaterattackspeedpot=Greatly increases attack speed
 battlepot=Ökar gedd skada med 10%
-MISSING_TRANSLATION:greaterbattlepot=Greatly increases damage dealt by 10%
+MISSING_TRANSLATION:greaterbattlepot=Increases damage dealt by 15%
 MISSING_TRANSLATION:greaterhealthregenpot=Greatly increases health regeneration
 MISSING_TRANSLATION:healthregenpot=Increases health regeneration
 MISSING_TRANSLATION:manaregenpot=Increases mana regeneration
@@ -1866,6 +1876,8 @@ precise=Exakt
 sloppy=Slarvig
 bulky=Tung
 puny=Klen
+MISSING_TRANSLATION:magical=Magical
+MISSING_TRANSLATION:draining=Draining
 
 // Sword/melee weapon enchants
 berserk=Bärsärk
@@ -3963,9 +3975,12 @@ datacorrupted=Det verkar som att din speldatafil har blivit korrupt :(\n\nTesta 
 savefailed1=Det gick ej att spara världen:
 savefailed2=Försök att gå ut ur spelet och ladda om världen för att se till att spelet sparas.
 savecompressfailed=Det här orsakas ofta av ett anti-virusprogram blockerar komprimerade sparfiler.\n\nVill du spara framtida filer okomprimerade?
+MISSING_TRANSLATION:saveiscompressed=This save is compressed and may not work properly when saving
 createworldfailed=Ett fel uppstod undertiden världen skapades
 loadworldfailed=Ett fel uppstod när världen lästes in
 backupworldfailed=Ett fel uppstod när under säkerhetskopieringen
+MISSING_TRANSLATION:renamefailed=Could not rename save
+MISSING_TRANSLATION:savenotclosed=Could not properly save this world previously. This is usually caused by another process, like an antivirus preventing the save.\nA restart might fix this.
 MISSING_TRANSLATION:restorebackup=Backups are created periodically. You can find and restore them inside the load world menu.
 MISSING_TRANSLATION:statssaveeerror=Error creating folder to save stats. Stats may not be saved.
 MISSING_TRANSLATION:workinprogress=Work in progress
