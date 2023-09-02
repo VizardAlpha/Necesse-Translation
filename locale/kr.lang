@@ -1,3 +1,4 @@
+// Korean translations
 // Every language must have lang.localname and lang.engname to be loaded.
 // File must be saved with UTF-8 encoding.
 
@@ -8,7 +9,9 @@
 
 // With every game update, all included language files will be updated with missing translations.
 // This means you can search for MISSING_TRANSLATION to find and add them.
+// If a translation is the same as english, make sure to add "SAME_TRANSLATION:" before the translation key,
 // similar to how it is before missing translation.
+// It is also possible to force this update by clicking the language in game while holding down shift.
 [lang]
 localname=한국어
 engname=Korean
@@ -885,10 +888,10 @@ sparegemstones=예비용 보석
 spellstone=주문석
 dreamcatcher=드림 캐처
 nightmaretalisman=악몽의 탈리스만
-MISSING_TRANSLATION:prophecyslab=Prophecy Slab
-MISSING_TRANSLATION:magicmanual=Magic Manual
-MISSING_TRANSLATION:scryingcards=Scrying Cards
-MISSING_TRANSLATION:forbiddenspellbook=Forbidden Spellbook
+prophecyslab=예언의 석판
+magicmanual=마법의 이론
+scryingcards=점술 카드
+forbiddenspellbook=금단의 주문서
 magicalquiver=마법의 화살집
 ammobox=탄약 보관함
 frozenheart=얼어붙은 심장
@@ -1386,10 +1389,10 @@ sparegemstonestip=최대 마나 20% 증가
 spellstonetip=최대 마나 50% 증가
 dreamcatchertip=마나 재생 100% 증가
 nightmaretalismantip=마나 재생 250% 증가
-MISSING_TRANSLATION:prophecyslabtip=Increases mana regen by 100%
-MISSING_TRANSLATION:magicmanualtip=Increases mana regen by 100%
-MISSING_TRANSLATION:scryingcardstip=Increases mana regen by 250%
-MISSING_TRANSLATION:forbiddenspellbooktip=Increases magic damage by 50%,\nbut increases mana usage by 100%
+prophecyslabtip=마나 재생 100% 증가
+magicmanualtip=마나 재생 100% 증가
+scryingcardstip=마나 재생 250% 증가
+forbiddenspellbooktip=마법 데미지 50% 증가\n하지만 마나 소모량 100% 증가
 magicalquiver=75% 확률로 발사시 화살을 소모하지 않음
 ammobox=75% 확률로 발사시 총알을 소모하지 않음
 frozenhearttip=최대 체력 50 증가
@@ -1539,7 +1542,7 @@ duration=<value> 동안
 healthpot=체력 <health> 즉시 회복
 healthpottip=빠른 사용을 위해 <key>을(를) 누르십시오.
 manapot=<mana>% 만큼 마나를 즉시 회복
-MISSING_TRANSLATION:manaflatpot=Restores <mana> mana instantly
+manaflatpot=마나를 <mana>만큼 즉시 회복
 manapottip=단축키 <key>를 눌러 즉시 사용
 attackspeedpot=공격 속도 증가
 greaterattackspeedpot=공격 속도 크게 증가
@@ -1665,9 +1668,9 @@ decayingleaftip1=천개의 발을 가진 생물체를 부릅니다.
 decayingleaftip2=심층 늪지 동굴에서 사용해야 합니다.
 dragonsoulstip=심층 사막 동굴에서 받침대를 활성화하는 데 사용됩니다.
 slimeeggstip=슬라임 동굴의 보스를 소환합니다.
-motherslimesummontip=아직 완료하지 않은 슬라임 동굴에서 사용해야 합니다.
+motherslimesummontip=아직 급습이 완료되지 않은 슬라임 동굴에서 사용해야 합니다.
 swarmsignaltip=공동묘지의 보스를 소환합니다.
-nightswarmsummontip=아직 완료하지 않은 공동묘지에서 사용해야 합니다.
+nightswarmsummontip=아직 급습이 완료되지 않은 공동묘지에서 사용해야 합니다.
 binocularstip=더 먼 거리를 볼 수 있습니다.
 wrappingpapertip=사랑하는 이들에게 줄 선물을 포장하는데 씁니다.
 ropetip=대부분의 중립 동물을 밧줄로 묶는 데 사용
@@ -1869,8 +1872,8 @@ precise=정밀한
 sloppy=엉성한
 bulky=거대한
 puny=자그마한
-MISSING_TRANSLATION:magical=Magical
-MISSING_TRANSLATION:draining=Draining
+magical=신비한
+draining=흩어지는
 
 // Sword/melee weapon enchants
 berserk=광전사의
@@ -3332,7 +3335,7 @@ explorerexpcomplete=원정동안 이 아이템을 찾았어.
 minerexpeditions=채굴 출장을 보내고 싶어.
 minerselectexp=어떤 광물을 캐올까?
 minershowmore=채굴할 광물 더 보기
-minerexpcost=<expedition>을 많이 채굴하기 위해 <cost>만큼의 코인이 듦
+minerexpcost=<expedition>을 많이 채굴해오기 위해선 <cost>만큼의 비용이 들어.
 minerexpcomplete=내가 발견한 광물들 좀 봐!
 settlermissionfailed=임무를 실패했어.
 settlerreturning=§7<settler>이(가) <settlement>로 돌아갑니다.
@@ -3567,9 +3570,9 @@ waystonehelp=완료된 각 퀘스트 단계에 대해 하나의 타향석 슬롯
 placegatewaytablet=활성화할 게이트웨이 태블릿을 배치
 selectincursion=급습할 곳 선택
 incursionrefreshesin=<time>뒤에 새로 고침
-noincursionselected=급습할 곳 없음
+noincursionselected=급습할 곳 선택되지 않음
 incursionused=이미 사용 중
-incursioncost=열기 위한 소모량:
+incursioncost=열기 위해 소모하는 아이템:
 incursionnocost=소모하지 않음
 incursionobjective=목표:
 incursionextractionobjective=광물 <ore>
@@ -3894,7 +3897,7 @@ recentdeath=최근 사망
 bosssummon=§b<name>이(가) 소환되었습니다!
 bossawoke=§b<name>이(가) 깨어났습니다!
 bossdefeat=§b<name>이(가) 패배했습니다!
-bossapproaching=§b적이 다가오고 있습니다...
+bossapproaching=§b강력한 적이 다가오고 있습니다...
 epescape=§b악의 수호자가 빛에 의해 탈출했습니다!
 bossmissingitem=§a활성화 항목이 없습니다.
 staircaseopening=§iA숨겨진 계단이 열립니다.
@@ -3970,12 +3973,12 @@ datacorrupted=게임 데이터 파일이 손상된 것 같습니다. :(\n\n스�
 savefailed1=월드를 저장하지 못했습니다.
 savefailed2=게임이 저장되었는지 확인하려면 월드를 종료하고 다시 로드하세요
 savecompressfailed=이것은 일반적으로 바이러스 백신이 압축 저장을 차단하기 때문에 발생합니다.\n\n파일을 압축하지 않고 저장하시겠습니까?
-MISSING_TRANSLATION:saveiscompressed=This save is compressed and may not work properly when saving
+saveiscompressed=이 세이브는 압축되어 저장될 때 제대로 작동하지 않을 수 있습니다.
 createworldfailed=월드를 만드는 도중 오류가 발생했습니다.
 loadworldfailed=월드를 로드하는 도중 오류가 발생했습니다.
 backupworldfailed=월드를 백업하는 도중 오류가 발생했습니다.
-MISSING_TRANSLATION:renamefailed=Could not rename save
-MISSING_TRANSLATION:savenotclosed=Could not properly save this world previously. This is usually caused by another process, like an antivirus preventing the save.\nA restart might fix this.
+renamefailed=세이브의 이름을 변경할 수 없음
+savenotclosed=이전에 이 세계를 제대로 저장하지 못했습니다. 이는 보통 바이러스 백신과 같은 다른 프로세스가 저장을 방해하기 때문에 발생합니다.\n다시 실행하면 문제가 해결될 수 있습니다. 
 restorebackup=백업은 순차적으로 생성됩니다. 월드 불러오기 메뉴 내에서 찾아서 복구할 수 있습니다.
 statssaveeerror=스테이터스 저장 폴더를 생성하는 도중 오류가 발생했습니다. 스테이터스값이 저장되지 않을 수 있습니다.
 workinprogress=작업 진행중
